@@ -1,0 +1,39 @@
+{
+    "name": "mkaram/laravel-snap",
+    "description": "Granular pattern and feature snapshotting system for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mkaram\\Snap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mkaram\\Snap\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0|^8.1|^8.2|^8.3|^8.4",
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/console": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "illuminate/filesystem": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+        "nikic/php-parser": "^4.18|^5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+        "pestphp/pest": "^1.0|^2.0|^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mkaram\\Snap\\SnapServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
