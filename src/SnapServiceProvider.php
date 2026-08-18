@@ -23,6 +23,7 @@ class SnapServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 SnapPatternCommand::class,
+                SnapCommand::class,
                 SnapInstallCommand::class,
                 SnapListCommand::class,
                 SnapMcpCommand::class,
