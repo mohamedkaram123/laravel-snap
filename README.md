@@ -52,7 +52,7 @@ composer require mkaram/laravel-snap --dev
 
 **1. Capture a feature (Source Project):**
 ```bash
-php artisan snap:pattern wallet --skeleton / --all
+php artisan snap:pattern wallet --all
 ```
 ---
 
