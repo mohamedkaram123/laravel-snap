@@ -10,6 +10,8 @@
 
 > **Granular pattern capture, architectural blueprint scaffolding, dependency-aware transplantation, and native AI MCP engine for Laravel.**
 
+![Laravel Snap Demo](demo.gif)
+
 ---
 
 ## 💡 Why Laravel Snap?
