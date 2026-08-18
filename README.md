@@ -39,11 +39,20 @@ Moving features between Laravel applications (like `Wallet`, `OTP`, `Subscriptio
 
 ## 🚀 Installation
 
+
 Install the package via Composer into your Laravel application:
 
 ```bash
 composer require mkaram/laravel-snap --dev
 ```
+
+---
+
+## 🛠️ Quick Usage
+
+**1. Capture a feature (Source Project):**
+```bash
+php artisan snap:pattern wallet --skeleton
 
 ---
 
