@@ -56,3 +56,4 @@ Full guides live in [`docs/`](docs/):
 | [Dependency Resolution](docs/02-core-concepts/dependency-resolution.md) | How Composer packages travel with a snapshot |
 | [CLI Reference](docs/03-cli-reference/commands.md) | `snap:pattern`, `snap:install`, and `snap:list` |
 | [Cursor & MCP Integration](docs/04-ai-and-mcp/cursor-integration.md) | Native stdio MCP server for Cursor and Windsurf |# laravel-snap
+# laravel-snap
