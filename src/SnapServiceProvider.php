@@ -7,6 +7,7 @@ use Mkaram\Snap\Commands\SnapInstallCommand;
 use Mkaram\Snap\Commands\SnapListCommand;
 use Mkaram\Snap\Commands\SnapMcpCommand;
 use Mkaram\Snap\Commands\SnapPatternCommand;
+use Mkaram\Snap\Commands\SnapCommand;
 
 class SnapServiceProvider extends ServiceProvider
 {
